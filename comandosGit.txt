@@ -7,3 +7,5 @@ Comandos Git
 5.-git add . (Para agregar todos los archivos y crapetas al la lista de archivos a ser subidos al repositorio local)
 6.-git add "NombreDeAlgo" si se desea agregar a la lista de archivos a ser subidos al repositorio local
 7.-git rm --cached <file/folder Name>..." to unstage para quitar del la lista a subir al repo local
+8.-Ya que tenemos todo listo le damos "git commit -m "MEnsaje" " para subir los cambios al rpositorio local
+9.-git push "nombredDelRepoRemoto" "nombreDeLaRama"
