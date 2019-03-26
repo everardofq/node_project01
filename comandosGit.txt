@@ -9,3 +9,5 @@ Comandos Git
 7.-git rm --cached <file/folder Name>..." to unstage para quitar del la lista a subir al repo local
 8.-Ya que tenemos todo listo le damos "git commit -m "MEnsaje" " para subir los cambios al rpositorio local
 9.-git push "nombredDelRepoRemoto" "nombreDeLaRama"
+Bajar cambios
+10.-git pull "nombredDelRepoRemoto" "nombreDeLaRama"
