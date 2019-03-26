@@ -1,0 +1,9 @@
+Comandos Git
+
+1.-git init
+2.-git remote add "nombredescriptivoDelRepo" rutaDelRepositorioRemoto
+3.-git remote -v (Para ver cuantos repositorios remotos se tienen importados)
+4.-git status (Para ver que archivos si estan cargados ya al repo remoto)
+5.-git add . (Para agregar todos los archivos y crapetas al la lista de archivos a ser subidos al repositorio local)
+6.-git add "NombreDeAlgo" si se desea agregar a la lista de archivos a ser subidos al repositorio local
+7.-git rm --cached <file/folder Name>..." to unstage para quitar del la lista a subir al repo local

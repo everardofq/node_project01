@@ -1,0 +1,22 @@
+html
+    head
+        title Mi primera página con JADE API
+    body
+        h1!=mensaje
+        - var arreglo = [1,2,3,4];
+        p Usando el for normal
+        - for (var i = arreglo.length - 1; i >= 0; i--)
+            p Numero = #{arreglo[i]}
+        p.
+            Hola as click en #[a(href="users") este link] por favor
+        p Usando el each loop
+        each number in arreglo
+            case number
+                when 1
+                    p El numero es Uno (#{number})
+                when 2
+                    p El numero es Dos (#{number})
+                default
+                    p= number
+            
+        

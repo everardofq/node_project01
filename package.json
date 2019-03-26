@@ -1,0 +1,19 @@
+{
+  "name": "node_project01",
+  "version": "1.0.0",
+  "description": "This is my first node api",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "jade": "^1.11.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev-api": "nodemon app.js",
+    "start": "node server.js"
+  },
+  "author": "Everardo Flores Quiriz",
+  "license": "ISC"
+}
