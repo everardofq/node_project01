@@ -7,7 +7,11 @@
     "express": "^4.16.4",
     "fs": "0.0.1-security",
     "jade": "^1.11.0",
-    "path": "^0.12.7"
+    "morgan": "^1.9.1",
+    "nib": "^1.1.2",
+    "path": "^0.12.7",
+    "pug": "^2.0.3",
+    "stylus": "^0.54.5"
   },
   "devDependencies": {},
   "scripts": {

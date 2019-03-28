@@ -1,8 +1,21 @@
 html
     head
-        title node_project01WithJade
+        title #{title} - My site
+        link(rel="stylesheet", href="/css/style.css")
     body
-        h1 Hello #{mensaje} in Index page
-        form(action="/datos",method="POST")
-            input(type="text")
-            input(type="submit", value="EnviarPeticion")
+        div(class='grid-container')
+            div(class='header')
+                h2 Header
+            div(class='left')
+                p(class='div') Column Left
+                img(src="/img/lnx.jpg", alt="myImage",class="two")
+            div(class='middle')
+                p(class='div') Column Middle
+                img(src="/img/byVisit.jpg", alt="myImage",class="two")
+            div(class='right')
+                p(class='div') Column Right
+                img(src="/img/lnx2.jpeg", alt="myImage",class="two")
+            div(class='footer')
+                p Footer
+        
+    

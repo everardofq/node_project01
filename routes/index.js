@@ -27,7 +27,7 @@ router.get('/', (req, res)=>{
 });
 
 router.post('/datos',function(req,res){
-    console.log(req);
+    //console.log(req);
     res.render("form",{mensaje: "Everardo"})
 });
 
