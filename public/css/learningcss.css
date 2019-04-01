@@ -1,0 +1,184 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6e6d70;
+    font-size: 12px;
+    margin: 45px;
+    background-color: #aeaeae;
+}
+#contenido-principal
+{
+    position: relative;
+    display: block;
+    width: 900px;
+    background-color: #fff;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 7px 15px rgba(0, 0, 0, 0.4);
+}
+
+nav{
+    position: relative;
+    display: block;
+    background-color: #00adee;
+    height: 51px;
+}
+nav a
+{
+    position: relative;
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 8px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: 0.4s ease;
+    transition: all 0.4s ease;
+}
+nav > a:hover
+{
+    color: #404041;
+    background-color: #fff;
+}
+
+header, footer, #contenido
+{
+    position: relative;
+    display: block;
+}
+header
+{
+    background-color: #ccc;
+}
+
+#imagen-encabezado
+{
+    position: relative;
+    display: block;
+    min-height: 280px;
+    background-image: url(/img/nat01.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+#imagen-encabezado > span
+{
+    position: absolute;
+    display: block;
+    background-color: rgba(64, 64, 65, 0.6);
+    color: #fff;
+    font-size: 42px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 120px;
+
+}
+#noticias
+{
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    width: 225px;
+    background-color: #fff;
+    bottom: 0; /*Provoca que se ocupe el espacio*/
+}
+#noticias > div
+{
+    position: relative;
+    display: block;
+    height: 295px;
+    overflow: auto; /*Para que aparezca el scroll cuando sea necesario*/
+}
+#noticias > a
+{
+    position: absolute; /*queremos que se muestre abajo del contenedor padre*/
+    display: block;
+    background-color: #00adee;
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none; /*Elimina el subrayado del link*/
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+#noticias > div > a
+{
+    position: relative;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #58595b;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: 0.4s ease;
+    transition: all 0.4s ease;
+}
+#noticias > div > a > span
+{
+    position: relative;
+    display: block;
+    color: #00adee;
+    margin: 0 0 5px;
+    font-size: 18px;
+}
+#noticias > div > a > p
+{
+    margin: 0; /*Elimina el margen por default de los parrafos*/
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: 0.4s ease;
+    transition: all 0.4s ease;
+}
+#noticias > div > a:hover
+{
+    background-color: #404041; /*muestra el color al pasar el mause encima*/
+}
+#noticias > div > a:hover p
+{
+    color: #fff; /*Para poner en color blanco el parrafo cuando se le pase eñ mouse*/
+}
+
+#contenido
+{
+    position: relative;
+    display: block;
+    width: 900px;
+
+    /*border: solid;
+    border-color: yellowgreen;*/
+}
+#contenido > div
+{   
+    display: inline-block;
+    height: 400px;
+    width: 444px;
+    overflow: auto;
+}
+footer
+{
+    text-align: center;
+    border: solid;
+    border-color:yellow;
+}
+ol {
+    background: #ff9999;
+    padding: 10px;
+  }
+  
+  ul {
+    background: #3399ff;
+    padding: 20px;
+  }
+  
+  ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+  }
+ul li {
+    background: #cce5ff;
+    margin: 5px;
+}
